@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script> 
+  <script src="js/player.js"></script>
+<!--Link game.js and player.js-->
+   
+
+<!-- firebase start -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+<script>
+  // Your Firebase configuration - the part u need to change
+  const firebaseConfig = {
+  apiKey: "AIzaSyBsO45PqPy6OCb8vmiJJLFlp3H4zO2dUZk",
+  authDomain: "car-game-5f128.firebaseapp.com",
+  databaseURL: "https://car-game-5f128-default-rtdb.firebaseio.com",
+  projectId: "car-game-5f128",
+  storageBucket: "car-game-5f128.appspot.com",
+  messagingSenderId: "893310040794",
+  appId: "1:893310040794:web:c2bdeedb8b61f929ab83e3"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<!-- firebase end  -->
+<!--Add database config here below-->
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
